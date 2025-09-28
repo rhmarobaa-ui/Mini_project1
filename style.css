@@ -1,0 +1,668 @@
+.home{
+    background-image: url(image/WhatsApp\ Image\ 2025-08-29\ at\ 12.57.03_567c2940.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    position: fixed;
+    width:100%;
+    top:0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color:white;
+    align-content: center;
+}
+li{
+    list-style-type:none; 
+    margin:0px 20px;
+}
+.header a{
+    color:white;
+    text-decoration: none;
+}
+/* sm */
+@media only screen and (min-width: 500px) {
+    .header{
+    position: fixed;
+    width:100%;
+   
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: center;
+}
+.header ul{
+    display: block;
+    
+}
+    
+    }
+
+
+@media only screen and (min-width: 768px) {
+
+.header{
+    position: fixed;
+    width:100%;
+    top:0;
+    left: 0;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.678);
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+li{
+    list-style-type:none; 
+    margin:0px 20px;
+}
+.header a{
+    color:white;
+    text-decoration: none;
+}
+.header ul{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    
+  
+   
+  
+   margin-top: 0px;
+    height: 100vh;
+}
+
+img{
+    width: 80%
+}
+.text{
+    width: 50%;
+}
+.person{
+    width: 30%;
+}
+.crad1{
+    width:30%;
+}
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+.box1 {
+  
+  border: 1px solid #504a4a; 
+
+  padding: 20px; 
+  border-radius: 8px; 
+  width: 200px; 
+    text-align: left;
+    display: inline-block;
+  margin: 30px
+}
+.box2{
+  
+  border: 1px solid #504a4a; 
+
+  padding: 20px; 
+  border-radius: 8px; 
+  width: 200px; 
+  text-align: center; 
+   display: inline-block;
+  margin: 30px;
+  text-align: center;
+ 
+}
+
+.box3{
+  
+  border: 1px solid #504a4a; 
+
+  padding: 20px; 
+  border-radius: 8px; 
+  width: 200px; 
+  text-align: right ;
+   display: inline-block;
+  margin: 30px;
+}
+a {
+  color: rgb(20, 20, 105);             
+  text-decoration: none;  
+   text-align: center; 
+    font-size: 20px;
+}
+
+
+  .b1 {
+  
+  border: 1px solid #504a4a; 
+
+  padding: 12px; 
+  border-radius: 5px; 
+  width: 200px; 
+    text-align: left;
+    display: inline-block;
+  margin: 20px
+}.b2 {
+  
+  border: 1px solid #504a4a; 
+
+  padding: 12px; 
+  border-radius: 5px; 
+  width: 200px; 
+    text-align: left;
+    display: inline-block;
+  margin: 20px
+}.b3 {
+  
+  border: 1px solid #504a4a; 
+
+  padding: 12px; 
+  border-radius: 5px; 
+  width: 200px; 
+    text-align: left;
+    display: inline-block;
+  margin: 20px
+}.b4 {
+
+  border: 1px solid #504a4a;
+
+  padding: 12px; 
+  border-radius: 5px; 
+  width: 200px; 
+    text-align: left;
+    display: inline-block;
+  margin: 20px
+}
+.b5 {
+  
+  border: 1px solid #504a4a; 
+
+  padding: 12px; 
+  border-radius: 5px; 
+  width: 200px; 
+    text-align: left;
+    display: inline-block;
+  margin: 20px
+}
+.b6 {
+
+  border: 1px solid #504a4a;
+
+  padding: 12px; 
+  border-radius: 5px; 
+  width: 200px; 
+    text-align: left;
+    display: inline-block;
+  margin: 20px
+}
+
+.stats {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('bag/WhatsApp Image 2025-08-30 at 00.13.04_24ac92d7.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  text-align: center;
+  color: white;
+}
+
+.stat-box img {
+  width: 40px; 
+  margin-bottom: 10px;
+}
+
+.stat-box h2 {
+  font-size: 32px;
+  margin: 5px 0;
+}
+
+.stat-box p {
+  font-size: 16px;
+  color: #ccc;
+}
+.card1{
+    width: 30%;
+    margin: 20px;
+  
+  border: 1px solid #504a4a; 
+
+  padding: 20px; 
+  border-radius: 8px; 
+  width: 200px; 
+    text-align: left;
+    display: inline-block;
+  margin: 30px
+}.card2{
+    width: 30%;
+    margin: 20px;
+  
+  border: 1px solid #504a4a; 
+
+  padding: 20px; 
+  border-radius: 8px; 
+  width: 200px; 
+    text-align: left;
+    display: inline-block;
+  margin: 30px
+}.card3{
+    width: 30%;
+    margin: 20px;
+  
+  border: 1px solid #504a4a; 
+
+  padding: 20px; 
+  border-radius: 8px; 
+  width: 200px; 
+    text-align: left;
+    display: inline-block;
+  margin: 30px
+}.price-circle {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid blue;   
+  border-radius: 50%;     
+  padding: 30px;        
+  width: 100px;             
+  height: 100px;            
+  text-align: center;
+}
+
+.price-circle h1 {
+  margin: 0;
+  font-size: 24px;
+  color: black;
+}
+
+.price-circle p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+.team {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.team h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 40px;
+  height: 4px;
+  background: #7632fe;
+  margin: 0 auto 30px auto;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center; 
+  gap: 30px;
+}
+
+.team-card {
+  background: rgba(245, 245, 243, 0.95);
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;        
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;    
+  margin-bottom: 15px;
+}
+
+/* Contact Section */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.underline {
+  width: 40px;
+  height: 4px;
+  background-color: #7632fe;
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.icon {
+  color: rgb(0, 140, 255);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.form {
+  width: 75%;
+  margin: auto;
+}
+
+.inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.inputs input {
+  flex: 1;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-box button {
+  background-color: rgb(0, 140, 255);
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-box button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+.copyright {
+  background-color: rgba(10, 10, 10, 0.9);
+  text-align: center;
+  padding: 30px 10px;
+  color: white;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.copy div {
+  background-color: dodgerblue;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy div i {
+  color: white;
+  font-size: 20px;
+}
+
+.copy div:hover {
+  background-color: #0056b3;
+}
+.box1, .box2, .box3 {
+  width: 250px;
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  cursor: pointer;
+  background: linear-gradient(to right, #000 0%, #000 100%);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition: background-size 0.6s ease;
+  color: #000;
+}
+
+/* عند الضغط على البوكس */
+.box1:active,
+.box2:active,
+.box3:active,
+.box1:focus-within,
+.box2:focus-within,
+.box3:focus-within {
+  background-size: 100% 100%;
+  color: #fff; /* النص يبان على الخلفية */
+}
+body {
+  background-color: beige;
+  font-family: Arial, sans-serif;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  overflow: hidden;
+  display: block;
+  border-radius: 10px;
+}
+
+/* نخفي الـ checkbox */
+.box input {
+  display: none;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.4s ease;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(128, 128, 128, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.overlay .blue-text {
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.overlay .black-text {
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.overlay i {
+  font-size: 24px;
+  color: #3498db;
+}
+
+/* عند الضغط */
+.box input:checked ~ img {
+  opacity: 0;
+}
+
+.box input:checked ~ .overlay {
+  opacity: 1;
+}
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.b1, .b2, .b3, .b4, .b5, .b6 {
+  position: relative;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: color 0.4s ease;
+  margin: 20px;
+}
+
+/* الخلفية السوداء */
+.b1::before, .b2::before, .b3::before, 
+.b4::before, .b5::before, .b6::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  transform: scaleX(0);
+  transform-origin: left; /* من الشمال */
+  transition: transform 0.5s ease;
+  z-index: 0;
+}
+
+/* لما اضغط */
+.b1:active::before, .b2:active::before, .b3:active::before,
+.b4:active::before, .b5:active::before, .b6:active::before {
+  transform: scaleX(1);
+}
+
+/* النص يفضل طبيعي */
+.b1 h2, .b1 h4, .b1 img,
+.b2 h2, .b2 h4, .b2 img,
+.b3 h2, .b3 h4, .b3 img,
+.b4 h2, .b4 h4, .b4 img,
+.b5 h2, .b5 h4, .b5 img,
+.b6 h2, .b6 h4, .b6 img {
+  position: relative;
+  z-index: 1;
+  color: black; /* النص يفضل أسود طبيعي */
+}
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.card1, .card2, .card3 {
+  position: relative;
+  width: 280px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+/* التأثير الأسود */
+.card1::before, .card2::before, .card3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  transform: scaleY(0);
+  transform-origin: top; /* من فوق لتحت */
+  transition: transform 0.6s ease;
+  z-index: 0;
+}
+
+/* عند مرور الماوس */
+.card1:hover::before, .card2:hover::before, .card3:hover::before {
+  transform: scaleY(1);
+}
+
+/* النص والصور فوق الخلفية */
+.card1 h2, .card1 ul, .card1 button, .card1 .price-circle,
+.card2 h2, .card2 ul, .card2 button, .card2 .price-circle,
+.card3 h2, .card3 ul, .card3 button, .card3 .price-circle {
+  position: relative;
+  z-index: 1;
+  color: black;
+}
+
+/* شكل الدائرة بتاعة السعر */
+.price-circle {
+  margin: 15px auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #7b807b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.price-circle span {
+  font-size: 22px;
+  font-weight: bold;
+}
+.price-circle small {
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+
+
